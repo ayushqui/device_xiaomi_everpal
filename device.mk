@@ -32,6 +32,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
+#Viper
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # A/B
 PRODUCT_PACKAGES += \
     update_engine \
