@@ -101,6 +101,8 @@ ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.primary_display_orientation=ORIENTATION_0
 ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
+ro.vendor.mtk_hdr_video_support=1
+ro.vendor.sdr2hdr.by.layer.support=false
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 
